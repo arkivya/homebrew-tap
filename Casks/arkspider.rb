@@ -1,9 +1,9 @@
 cask "arkspider" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.3"
-  sha256 arm:   "7af245f8c29800c11626751bbe8ec09f0814ca7f8125eba607b3472182e4892f",
-         intel: "62f519eb8c27cd70b03c43cbda547283a6d2d78f984a5e3654f63c3cb6620bbd"
+  version "1.0.4"
+  sha256 arm:   "845768daefdb623547081633dc1960c1895c163e1cff4ae2abe572eb3db671d3",
+         intel: "efdd102762fb3071e749380a8eb63d22b029b84121350798de3ad9766df1aabc"
 
   url "https://github.com/arkivya/spider-releases/releases/download/v#{version}/arkspider-darwin-#{arch}-v#{version}.zip"
   name "ArkSpider"
