@@ -1,11 +1,11 @@
 cask "arkspider" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.26.8.20"
-  sha256 arm:   "e066a2ac59b07894120de060b2c6ef00b401ad90ecfddc2f875e36c731e4b2ac",
-         intel: "3953ac6417ab27fdb8bdfcc039c4a6c9c5b67f13512ca066b3fb5739f6bd68ba"
+  version "1.26.823"
+  sha256 arm:   "317ac3f4e46391e9fe7390c844297d6c5d9bf51773eff9730f6f7beeca25b093",
+         intel: "61e4a7c1e1d9b991a914dd482e09a5da026c22c4d34aeb8f1c3f1059be648391"
 
-  url "https://github.com/arkivya/spider-releases/releases/download/v#{version}/arkspider-darwin-#{arch}-v#{version}.zip"
+  url "https://github.com/arkivya/spider-releases/releases/download/v#{version}/arkspider-darwin-#{arch}-v1.26.8.23.zip"
   name "ArkSpider"
   desc "Local-first website crawler and technical SEO auditor"
   homepage "https://github.com/arkivya/spider-releases"
